@@ -307,7 +307,7 @@ the *same PRY sessions as above*:
 ```bash
 [3] pry(main)> adele = Artist.new(name: "Adele")
 => #<Artist:0x007fc75b8d9490 id: nil, name: "Adele">
-[4] pry(main)> drake = Artist.new(name: "Drake")
+[4] pry(main)> drake = Artist.new(name: "Drake") 
 => #<Artist:0x007fc75b163c60 id: nil, name: "Drake">
 ```
 
