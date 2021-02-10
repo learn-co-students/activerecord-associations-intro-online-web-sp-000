@@ -12,4 +12,15 @@
 
 ActiveRecord::Schema.define(version: 4) do
 
+  create_table "artists", force: :cascade do |t|
+    t.string "name"
+  end
+
+  create_table "genres", force: :cascade do |t|
+    t.string "name"
+  end
+
+# Could not dump table "songs" because of following StandardError
+#   Unknown type 'artists' for column 'artist'
+
 end
