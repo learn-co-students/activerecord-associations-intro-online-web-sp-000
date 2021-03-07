@@ -427,7 +427,7 @@ Then add the song to `adele`:
 Whoa! Check it out - we did not explicitly save `set_fire_to_the_rain`, but just
 by pushing the instance into `adele.songs`, Active Record has gone ahead and
 saved the instance. Not only that, notice that the song instance _also has an
-aritst_id!_
+artist_id!_
 
 ```bash
 [8] pry(main)> set_fire_to_the_rain.artist
@@ -462,7 +462,7 @@ songs collection:
 
 We added `rolling_in_the_deep` to `adele`'s collection of songs and we can see
 the `adele` knows it has that song in the collection *and* `rolling_in_the_deep`
-knows about its artist. Not only that, `rolling_in_the_deep` is not persisted to
+knows about its artist. Not only that, `rolling_in_the_deep` is now persisted to
 the database.
 
 Notice that `adele.songs` returns an array of songs. When a model `has_many` of
