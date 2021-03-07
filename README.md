@@ -427,7 +427,7 @@ Then add the song to `adele`:
 Whoa! Check it out - we did not explicitly save `set_fire_to_the_rain`, but just
 by pushing the instance into `adele.songs`, Active Record has gone ahead and
 saved the instance. Not only that, notice that the song instance _also has an
-aritst_id!_
+artist_id!_
 
 ```bash
 [8] pry(main)> set_fire_to_the_rain.artist
